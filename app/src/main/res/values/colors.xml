@@ -11,6 +11,8 @@
     <color name="btn_start">#0F8A8E</color>
     <color name="btn_middle">#0F5B8E</color>
     <color name="btn_end">#0F338E</color>
+    <color name="text_color">#363A43</color>
+    <color name="no_color">#00000000</color>
 
 
 </resources>
