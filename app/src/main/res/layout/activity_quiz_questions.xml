@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="@drawable/ic_bg"
+    android:background="@color/dark_center"
     tools:context=".QuizQuestionsActivity">
 
     <LinearLayout
@@ -126,7 +126,7 @@
             android:layout_marginTop="10dp"
             android:textSize="18sp"
             android:padding="14dp"
-            android:background="@drawable/btn_bg"
+            android:background="@drawable/btn_bg_dark"
             android:textColor="@color/white"
             android:fontFamily="@font/montserrat_medium"
             android:text="@string/submit"/>
