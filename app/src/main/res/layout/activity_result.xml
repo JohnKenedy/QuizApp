@@ -13,7 +13,7 @@
         android:id="@+id/tv_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="45dp"
         android:fontFamily="@font/montserrat_medium"
         android:text="@string/result"
         android:textColor="@color/white"
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="310dp"
         android:scaleType="centerCrop"
-         />
+        android:src="@drawable/end_screen" />
 
     <TextView
         android:id="@+id/tv_congratulations"
@@ -63,13 +63,12 @@
         android:id="@+id/btn_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/btn_bg_dark"
+        android:layout_marginTop="45dp"
+        android:background="@color/no_color"
         android:fontFamily="@font/montserrat_medium"
-        android:padding="10dp"
+        android:padding="15dp"
         android:text="@string/finish"
         android:textColor="@color/white"
-        android:textSize="18sp"
         android:textStyle="bold" />
 
 </LinearLayout>
